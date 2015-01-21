@@ -3,7 +3,7 @@ module.exports = (grunt) ->
     plg: grunt.file.readJSON("package.json")
     sass:
       build:
-        src: "src/scss/*.scss"
+        src: "src/sass/*.sass"
         dest: "build/style/style.css"
 
     slim:
