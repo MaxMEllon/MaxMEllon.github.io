@@ -1,0 +1,25 @@
+/*! my-styile */
+body#base {
+  color: #ffffff;
+  background: #252525; }
+  body#base .my-nav {
+    height: 35px;
+    width: 100%;
+    background: #000000;
+    padding-top: 6px; }
+    body#base .my-nav .my-nav-btn {
+      padding: 10px; }
+      body#base .my-nav .my-nav-btn:link {
+        color: #ffffff; }
+      body#base .my-nav .my-nav-btn:visited {
+        color: #ffffff; }
+      body#base .my-nav .my-nav-btn:hover {
+        background: #ffffff;
+        color: #000000; }
+  body#base .side-bar {
+    float: left;
+    width: 200px;
+    height: 100%;
+    background: #999999; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,41 @@
+/*! my-styile */
+
+$base-background-color: #252525;
+$base-font-color: #ffffff;
+$main-width: 960px;
+
+body#base {
+  color: $base-font-color;
+  background: $base-background-color;
+
+  // head
+  $nav-height: 35px;
+  $nav-bg: #000000;
+  $nav-color: #ffffff;
+  .my-nav {
+    height: $nav-height;
+    width: 100%;
+    background: $nav-bg;
+    padding-top: 6px;
+    .my-nav-btn {
+      padding: 10px;
+      &:link {
+        color: $nav-color;
+      }
+      &:visited {
+        color: $nav-color;
+      }
+      &:hover {
+        background: $nav-color;
+        color: $nav-bg;
+      }
+    }
+  }
+
+  .side-bar {
+    float: left;
+    width: 200px;
+    height: 100%;
+    background: #999999;
+  }
+}
