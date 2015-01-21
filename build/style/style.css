@@ -1,7 +1,11 @@
 /*! my-styile */
 body#base {
   color: #ffffff;
-  background: #252525; }
+  background: #636363; }
+  body#base .head {
+    width: 100%;
+    height: 100px;
+    background: white; }
   body#base .my-nav {
     height: 35px;
     width: 100%;
@@ -20,6 +24,6 @@ body#base {
     float: left;
     width: 200px;
     height: 100%;
-    background: #999999; }
+    background: #000000; }
 
 /*# sourceMappingURL=style.css.map */

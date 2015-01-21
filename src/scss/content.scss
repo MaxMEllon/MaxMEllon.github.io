@@ -1,14 +1,21 @@
 /*! my-styile */
 
-$base-background-color: #252525;
+$base-bg-color: #636363;
 $base-font-color: #ffffff;
 $main-width: 960px;
 
 body#base {
   color: $base-font-color;
-  background: $base-background-color;
+  background: $base-bg-color;
 
   // head
+  .head {
+    width: 100%;
+    height: 100px;
+    background: white;
+  }
+
+  // nav
   $nav-height: 35px;
   $nav-bg: #000000;
   $nav-color: #ffffff;
@@ -32,10 +39,12 @@ body#base {
     }
   }
 
+  // side-bar
+  $nav-width: 200px;
   .side-bar {
     float: left;
-    width: 200px;
+    width: $nav-width;
     height: 100%;
-    background: #999999;
+    background: $nav-bg;
   }
 }
