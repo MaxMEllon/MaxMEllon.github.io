@@ -36,35 +36,35 @@ body#base {
     width: 200px;
     height: 100%;
     background: #000000; }
+    body#base .side-bar .tweet {
+      padding: 10px; }
   body#base .container#pjax-container {
     margin-left: 190px; }
-    body#base .container#pjax-container .game {
-      width: 600px; }
-      body#base .container#pjax-container .game #game-title {
-        font-size: 26px;
-        padding-bottom: 12px; }
-      body#base .container#pjax-container .game .wot .my-panel-list {
-        float: none;
-        font-size: 15px;
-        margin-right: 10px;
-        width: 468px; }
-        body#base .container#pjax-container .game .wot .my-panel-list .my-panel {
-          padding: 3px;
-          float: left;
-          width: 117px; }
-          body#base .container#pjax-container .game .wot .my-panel-list .my-panel#head {
-            background: black;
-            font-weight: bold; }
-        body#base .container#pjax-container .game .wot .my-panel-list a#link {
-          text-decoration: none;
+    body#base .container#pjax-container .game #game-title {
+      font-size: 26px;
+      padding-bottom: 12px; }
+    body#base .container#pjax-container .game .wot .my-panel-list {
+      float: none;
+      font-size: 15px;
+      margin-right: 10px;
+      width: 468px; }
+      body#base .container#pjax-container .game .wot .my-panel-list .my-panel {
+        padding: 3px;
+        float: left;
+        width: 117px; }
+        body#base .container#pjax-container .game .wot .my-panel-list .my-panel#head {
           background: black;
           font-weight: bold; }
-          body#base .container#pjax-container .game .wot .my-panel-list a#link:link {
-            color: white; }
-          body#base .container#pjax-container .game .wot .my-panel-list a#link:visited {
-            color: white; }
-          body#base .container#pjax-container .game .wot .my-panel-list a#link:hover {
-            background: white;
-            color: black; }
+      body#base .container#pjax-container .game .wot .my-panel-list a#link {
+        text-decoration: none;
+        background: black;
+        font-weight: bold; }
+        body#base .container#pjax-container .game .wot .my-panel-list a#link:link {
+          color: white; }
+        body#base .container#pjax-container .game .wot .my-panel-list a#link:visited {
+          color: white; }
+        body#base .container#pjax-container .game .wot .my-panel-list a#link:hover {
+          background: white;
+          color: black; }
 
 /*# sourceMappingURL=style.css.map */

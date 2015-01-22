@@ -43,18 +43,19 @@ body#base
         border-bottom: solid 5px red
 
   // side-bar
-  $nav-width: 200px
+  $side-bar-width: 200px
   .side-bar
     float: left
-    width: $nav-width
+    width: $side-bar-width
     height: 100%
     background: $nav-bg
+    .tweet
+      padding: 10px
 
   // container
   .container#pjax-container
-    margin-left: $nav-width - 10px
+    margin-left: $side-bar-width - 10px
     .game
-      width: 600px
       $game-title-font-size: 26px
       #game-title
         font-size: $game-title-font-size
