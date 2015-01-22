@@ -22,20 +22,20 @@ html
     /Myscript
     script src='build/script/app.js'
 
-  body#base
+  body.main#base
     .head
       .big-title
         | MaxMEllon.github.io
       .sub-title
         | らくがきちょう，ぎじゅつけいめもおきば，げーむ
     .my-nav
-      a.my-nav-btn href="index.html" data-pjax=""
+      a.my-nav-btn.pjax href="index.html"
         | Home
-      a.my-nav-btn href="prog.html" data-pjax=""
+      a.my-nav-btn.pjax href="prog.html"
         | Programing
-      a.my-nav-btn href="game.html" data-pjax=""
+      a.my-nav-btn.pjax href="game.html"
         | Game
-      a.my-nav-btn href="memo.html" data-pjax=""
+      a.my-nav-btn.pjax href="memo.html"
         | Memo
 
     .side-bar
@@ -56,7 +56,6 @@ html
 
         - Age
           : 21
-
 
         - Address
           - Kagawa
