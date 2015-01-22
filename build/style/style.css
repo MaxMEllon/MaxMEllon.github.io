@@ -14,7 +14,7 @@ body#base {
       border-bottom: 1px solid black; }
     body#base .head .sub-title {
       font-size: 15px;
-      margin-left: 400px; }
+      float: right; }
   body#base .my-nav {
     height: 35px;
     width: 100%;
