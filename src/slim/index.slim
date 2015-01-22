@@ -2,6 +2,7 @@ html
   head
     meta charset='utf-8'
     title MaxMEllon.github.io
+    /! css
     link (
       rel='stylesheet'
       href='build/style/style.css'
@@ -10,18 +11,29 @@ html
       rel='stylesheet'
       href='//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css'
     )
-    script src='build/script/angular.js'
+
+    /! js
+    /AngularJS
+    /* script src='build/script/angular.js' */
+    /JQuery
+    script src='//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js'
+    /pjax
+    script src='build/script/jquery.pjax.js'
+    /Myscript
     script src='build/script/app.js'
 
-  body#base ng-app='Github.io'
+  body#base
     .head
 
     .my-nav
-      a.my-nav-btn href="#"
+      a.my-nav-btn href="index.html" data-pjax=""
         | HOME
-      a.my-nav-btn href="#"
+      a.my-nav-btn href="prog.html" data-pjax=""
         | Programing
-      a.my-nav-btn href="#"
-        | Game(World of Tanks)
+      a.my-nav-btn href="game.html" data-pjax=""
+        | Game
 
     .side-bar
+
+    .container#pjax-container
+

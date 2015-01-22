@@ -1,0 +1,77 @@
+/*! my-styile */
+$base-bg-color: #636363
+$base-font-color: #ffffff
+$main-width: 960px
+
+body#base
+  color: $base-font-color
+  background: $base-bg-color
+  // head
+  .head
+    width: 100%
+    height: 100px
+    background: white
+
+  // nav
+  $nav-height: 35px
+  $nav-bg: #000000
+  $nav-color: #ffffff
+  .my-nav
+    height: $nav-height
+    width: 100%
+    background: $nav-bg
+    padding-top: 6px
+    .my-nav-btn
+      padding: 10px
+      text-decoration: none
+      &:link
+        color: $nav-color
+      &:visited
+        color: $nav-color
+      &:hover
+        background: $nav-color
+        color: $nav-bg
+
+  // side-bar
+  $nav-width: 200px
+  .side-bar
+    float: left
+    width: $nav-width
+    height: 100%
+    background: $nav-bg
+
+  // container
+  .container#pjax-container
+    margin-left: $nav-width - 10px
+    .game
+      width: 600px
+      $game-title-font-size: 26px
+      #game-title
+        font-size: $game-title-font-size
+        padding-bottom: 12px
+      .wot
+        $signature-size: 468px
+        .my-panel-list
+          float: none
+          font-size: 15px
+          margin-right: 10px
+          width: $signature-size
+          .my-panel
+            padding: 3px
+            float: left
+            width: $signature-size / 4
+            &#head
+              background: black
+              font-weight: bold
+          a#link
+            text-decoration: none
+            background: black
+            font-weight: bold
+            &:link
+              color: white
+            &:visited
+              color: white
+            &:hover
+              background: white
+              color: black
+

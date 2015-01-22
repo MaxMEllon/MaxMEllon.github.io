@@ -1,4 +1,6 @@
 (function() {
-  angular.module('Github.io', []);
+  if ($.support.pjax) {
+    $(document).pjax('a[data-pjax]', '#pjax-container');
+  }
 
 }).call(this);

@@ -9,17 +9,20 @@ module.exports = (grunt) ->
     slim:
       option:
         pretty: true
-      build:
+      index_build:
         src: "src/slim/index.slim"
         dest: "index.html"
+      prog_build:
+        src: "src/slim/prog.slim"
+        dest: "prog.html"
+      game_build:
+        src: "src/slim/game.slim"
+        dest: "game.html"
 
     coffee:
       app_build:
         src: "src/coffee/app.coffee"
         dest: "build/script/app.js"
-      # controllers_build:
-      #   src: "src/coffee/controllers.coffee"
-      #   dest: "build/script/controllers.js"
 
     csslint:
       check:
