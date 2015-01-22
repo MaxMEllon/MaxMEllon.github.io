@@ -1,18 +1,27 @@
+@charset "UTF-8";
 /*! my-styile */
 body#base {
   color: #ffffff;
-  background: #636363; }
+  background: #222222;
+  font-family: "メイリオ", sans-serif; }
   body#base .head {
     width: 100%;
-    height: 100px;
-    background: white; }
+    height: 90px;
+    background: white;
+    color: black; }
+    body#base .head .big-title {
+      font-size: 50px;
+      border-bottom: 1px solid black; }
+    body#base .head .sub-title {
+      font-size: 15px;
+      margin-left: 400px; }
   body#base .my-nav {
     height: 35px;
     width: 100%;
     background: #000000;
     padding-top: 6px; }
     body#base .my-nav .my-nav-btn {
-      padding: 10px;
+      padding: 6px 30px 6px 30px;
       text-decoration: none; }
       body#base .my-nav .my-nav-btn:link {
         color: #ffffff; }
@@ -20,7 +29,8 @@ body#base {
         color: #ffffff; }
       body#base .my-nav .my-nav-btn:hover {
         background: #ffffff;
-        color: #000000; }
+        color: #000000;
+        border-bottom: solid 5px red; }
   body#base .side-bar {
     float: left;
     width: 200px;

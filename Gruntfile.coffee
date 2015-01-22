@@ -18,6 +18,9 @@ module.exports = (grunt) ->
       game_build:
         src: "src/slim/game.slim"
         dest: "game.html"
+      memo_build:
+        src: "src/slim/memo.slim"
+        dest: "memo.html"
 
     coffee:
       app_build:

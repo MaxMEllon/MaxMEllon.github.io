@@ -1,16 +1,24 @@
 /*! my-styile */
-$base-bg-color: #636363
+$base-bg-color: #222222
 $base-font-color: #ffffff
 $main-width: 960px
 
 body#base
   color: $base-font-color
   background: $base-bg-color
+  font-family: "メイリオ", sans-serif
   // head
   .head
     width: 100%
-    height: 100px
+    height: 90px
     background: white
+    color: black
+    .big-title
+      font-size: 50px
+      border-bottom: 1px solid black
+    .sub-title
+      font-size: 15px
+      margin-left: 400px
 
   // nav
   $nav-height: 35px
@@ -22,7 +30,8 @@ body#base
     background: $nav-bg
     padding-top: 6px
     .my-nav-btn
-      padding: 10px
+      //top, right, buttom, left
+      padding: 6px 30px 6px 30px
       text-decoration: none
       &:link
         color: $nav-color
@@ -31,6 +40,7 @@ body#base
       &:hover
         background: $nav-color
         color: $nav-bg
+        border-bottom: solid 5px red
 
   // side-bar
   $nav-width: 200px
