@@ -4,12 +4,15 @@
   });
 
   $(document).bind('pjax:complete', function() {
-    $('#pjax-container').animate({
-      opacity: 0.0
-    }, 300);
     return $('#pjax-container').animate({
       opacity: 1.0
-    }, 300);
+    }, 400);
+  });
+
+  $(document).bind('pjax:click', function() {
+    return $('#pjax-container').animate({
+      opacity: 0.0
+    }, 0);
   });
 
 }).call(this);
