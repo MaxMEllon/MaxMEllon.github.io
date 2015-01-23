@@ -3,7 +3,7 @@
     return $('.main').pjax('a.pjax', '#pjax-container');
   });
 
-  $(document).bind('click', 'a.pjax', function() {
+  $(document).bind('pjax:complete', function() {
     $('#pjax-container').animate({
       opacity: 0.0
     }, 300);
