@@ -7,6 +7,7 @@ body#base
   color: $base-font-color
   background: $base-bg-color
   font-family: "メイリオ", sans-serif
+
   // head
   .head
     width: 100%
@@ -51,6 +52,33 @@ body#base
     background: $nav-bg
     .tweet
       padding: 10px
+
+  // animation
+  .fade-out
+    -web-kit-animation: fadeOut .5s cubic-bezier(.50, 0, .1, 1) both
+    animation: fadeOut .5s cubic-bezier(.55, 0, .1, 1) both
+  @-webkit-keyframes fadeOut
+    to
+      opacity: 0
+      -webkit-transform: scale(1.2)
+  @keyframes fadeOut
+    to
+      opacity: 0
+      -weight-transform: scale(1.2)
+      transform: scale(1.2)
+
+  .fade-in
+    -web-kit-animation: fadeIn .5s cubic-bezier(.50, 0, .1, 1) both
+    animation: fadeOut .5s cubic-bezier(.55, 0, .1, 1) both
+  @-webkit-keyframes fadeOut
+    from
+      opacity: 0
+      -webkit-transform: scale(.8)
+  @keyframes fadeOut
+    from
+      opacity: 0
+      -weight-transform: scale(.8)
+      transform: scale(.8)
 
   // container
   .container#pjax-container

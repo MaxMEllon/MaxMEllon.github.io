@@ -2,13 +2,7 @@
 $(document).ready ->
   $('.main').pjax 'a.pjax', '#pjax-container'
 
-$(document)
-  .on 'pjax:start', ->
-    $('pjax-container').animate(
-      opacity: 0
-    , 100)
-  .on 'pjax:end', ->
-    $('pjax-container').animate(
-      opacity: 100
-    , 100)
-
+$(document).bind('click','a.pjax' , ->
+    $('#pjax-container').animate( opacity: 0.0, 300)
+    $('#pjax-container').animate( opacity: 1.0, 300)
+)

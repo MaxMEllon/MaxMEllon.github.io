@@ -38,6 +38,30 @@ body#base {
     background: #000000; }
     body#base .side-bar .tweet {
       padding: 10px; }
+  body#base .fade-out {
+    -web-kit-animation: fadeOut 0.5s cubic-bezier(0.5, 0, 0.1, 1) both;
+    animation: fadeOut 0.5s cubic-bezier(0.55, 0, 0.1, 1) both; }
+@-webkit-keyframes fadeOut {
+  to {
+    opacity: 0;
+    -webkit-transform: scale(1.2); } }
+@keyframes fadeOut {
+  to {
+    opacity: 0;
+    -weight-transform: scale(1.2);
+    transform: scale(1.2); } }
+  body#base .fade-in {
+    -web-kit-animation: fadeIn 0.5s cubic-bezier(0.5, 0, 0.1, 1) both;
+    animation: fadeOut 0.5s cubic-bezier(0.55, 0, 0.1, 1) both; }
+@-webkit-keyframes fadeOut {
+  from {
+    opacity: 0;
+    -webkit-transform: scale(0.8); } }
+@keyframes fadeOut {
+  from {
+    opacity: 0;
+    -weight-transform: scale(0.8);
+    transform: scale(0.8); } }
   body#base .container#pjax-container {
     margin-left: 190px; }
     body#base .container#pjax-container .game #game-title {
