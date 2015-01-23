@@ -14,13 +14,13 @@ module.exports = (grunt) ->
         dest: "index.html"
       prog_build:
         src: "src/slim/prog.slim"
-        dest: "prog.html"
+        dest: "link/prog.html"
       game_build:
         src: "src/slim/game.slim"
-        dest: "game.html"
+        dest: "link/game.html"
       memo_build:
         src: "src/slim/memo.slim"
-        dest: "memo.html"
+        dest: "link/memo.html"
 
     coffee:
       app_build:
