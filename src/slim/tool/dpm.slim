@@ -1,0 +1,42 @@
+script src="/build/script/tool/dpm.js"
+form.for-m-horizontal
+  .form-group
+    label.col-sm-3.al for="type"
+      |砲種
+    .type#type
+      label.radio-inline.col-sm-2
+        input type="radio" name="gun-type"
+        |通常
+      label.radio-inline.col-sm-2
+        input type="radio" name="gun-type"
+        |ローダー
+  br
+  br
+  .form-group
+    label.col-sm-3.al for="rof"
+      |次弾装填時間
+    input.col-sm-4.al#rof type="text" value="10"
+  br
+  br
+  .form-group
+    label.col-sm-3 for="reload-time"
+      |装填時間
+    input.col-sm-4#reload-time type="text" value="10"
+  br
+  br
+  .form-group
+    label.col-sm-3 for="ave-dmg"
+      |平均ダメージ
+    input.col-sm-4#avg-dmg type="text" value="200"
+  br
+  br
+  .form-group
+    label.col-sm-3 for="skill"
+      |装填手スキル(%)
+    input.col-sm-4#skill type="text" value="110"
+  br
+  br
+  .form-group
+    label.col-sm-3 for="rammer"
+      |装填棒(rammer)
+    input.col-sm-4#rammer type="checkbox"

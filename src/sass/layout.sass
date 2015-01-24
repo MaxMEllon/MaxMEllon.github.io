@@ -95,22 +95,35 @@ body#base
           font-size: 15px
           margin-right: 10px
           width: $signature-size
-          .my-panel
+          a.my-panel
             padding: 3px
             float: left
             width: $signature-size / 4
             &#head
               background: black
               font-weight: bold
-          a#link
-            text-decoration: none
-            background: black
-            font-weight: bold
-            &:link
-              color: white
-            &:visited
-              color: white
-            &:hover
-              background: white
-              color: black
+              &:link
+                color: white
+              &:visited
+                color: white
+              &:hover
+                background: white
+                color: black
+            &#link
+              text-decoration: none
+              background: black
+              font-weight: bold
+              &:link
+                color: white
+              &:visited
+                color: white
+              &:hover
+                background: white
+                color: black
 
+  // iframe
+  $default-iframe-width: 700px
+  .iframe
+    width: $default-iframe-width
+    .form-group
+      margin: 0px

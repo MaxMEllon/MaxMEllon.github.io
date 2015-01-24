@@ -21,11 +21,23 @@ module.exports = (grunt) ->
       memo_build:
         src: "src/slim/memo.slim"
         dest: "link/memo.html"
+      dpm_build:
+        src: "src/slim/tool/dpm.slim"
+        dest: "tool/dpm.html"
+      camo_build:
+        src: "src/slim/tool/camo.slim"
+        dest: "tool/camo.html"
+      panetrate_build:
+        src: "src/slim/tool/penetrate.slim"
+        dest: "tool/penetrate.html"
 
     coffee:
       app_build:
         src: "src/coffee/app.coffee"
         dest: "build/script/app.js"
+      dpm_build:
+        src: "src/coffee/tool/dpm.coffee"
+        dest: "build/script/tool/app.js"
 
     csslint:
       check:

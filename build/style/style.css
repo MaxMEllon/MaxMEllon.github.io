@@ -72,23 +72,34 @@ body#base {
       font-size: 15px;
       margin-right: 10px;
       width: 468px; }
-      body#base .container#pjax-container .game .wot .my-panel-list .my-panel {
+      body#base .container#pjax-container .game .wot .my-panel-list a.my-panel {
         padding: 3px;
         float: left;
         width: 117px; }
-        body#base .container#pjax-container .game .wot .my-panel-list .my-panel#head {
+        body#base .container#pjax-container .game .wot .my-panel-list a.my-panel#head {
           background: black;
           font-weight: bold; }
-      body#base .container#pjax-container .game .wot .my-panel-list a#link {
-        text-decoration: none;
-        background: black;
-        font-weight: bold; }
-        body#base .container#pjax-container .game .wot .my-panel-list a#link:link {
-          color: white; }
-        body#base .container#pjax-container .game .wot .my-panel-list a#link:visited {
-          color: white; }
-        body#base .container#pjax-container .game .wot .my-panel-list a#link:hover {
-          background: white;
-          color: black; }
+          body#base .container#pjax-container .game .wot .my-panel-list a.my-panel#head:link {
+            color: white; }
+          body#base .container#pjax-container .game .wot .my-panel-list a.my-panel#head:visited {
+            color: white; }
+          body#base .container#pjax-container .game .wot .my-panel-list a.my-panel#head:hover {
+            background: white;
+            color: black; }
+        body#base .container#pjax-container .game .wot .my-panel-list a.my-panel#link {
+          text-decoration: none;
+          background: black;
+          font-weight: bold; }
+          body#base .container#pjax-container .game .wot .my-panel-list a.my-panel#link:link {
+            color: white; }
+          body#base .container#pjax-container .game .wot .my-panel-list a.my-panel#link:visited {
+            color: white; }
+          body#base .container#pjax-container .game .wot .my-panel-list a.my-panel#link:hover {
+            background: white;
+            color: black; }
+  body#base .iframe {
+    width: 700px; }
+    body#base .iframe .form-group {
+      margin: 0px; }
 
 /*# sourceMappingURL=style.css.map */
