@@ -76,14 +76,14 @@ body#base {
         padding: 3px;
         float: left;
         width: 117px; }
-        body#base .container#pjax-container .game .wot .my-panel-list a.my-panel#head {
-          background: black;
+        body#base .container#pjax-container .game .wot .my-panel-list a.my-panel#tool-menu {
+          background: #110000;
           font-weight: bold; }
-          body#base .container#pjax-container .game .wot .my-panel-list a.my-panel#head:link {
+          body#base .container#pjax-container .game .wot .my-panel-list a.my-panel#tool-menu:link {
             color: white; }
-          body#base .container#pjax-container .game .wot .my-panel-list a.my-panel#head:visited {
+          body#base .container#pjax-container .game .wot .my-panel-list a.my-panel#tool-menu:visited {
             color: white; }
-          body#base .container#pjax-container .game .wot .my-panel-list a.my-panel#head:hover {
+          body#base .container#pjax-container .game .wot .my-panel-list a.my-panel#tool-menu:hover {
             background: white;
             color: black; }
         body#base .container#pjax-container .game .wot .my-panel-list a.my-panel#link {
