@@ -97,6 +97,11 @@ body#base {
           body#base .container#pjax-container .game .wot .my-panel-list a.my-panel#link:hover {
             background: white;
             color: black; }
+  body#base .tool input {
+    color: #000;
+    padding: 2px; }
+  body#base .tool .btn {
+    background-color: #000; }
   body#base .iframe {
     width: 700px; }
     body#base .iframe .form-group {
