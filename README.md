@@ -1,8 +1,9 @@
 # MyGithub.io
 
 [ここの](http://MaxMEllon.github.io)ソースコードです
-middlemanを使おうと思いましたが今のところベタ書き
-AngularJS使う（たぶん）．
+~~middlemanを使おうと思いましたが今のところベタ書き AngularJS使う（たぶん）．~~
+あれは嘘だ
+
 
 # how to run
 
