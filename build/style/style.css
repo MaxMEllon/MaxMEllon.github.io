@@ -35,7 +35,10 @@ body#base {
     float: left;
     width: 200px;
     height: 100%;
-    background: #000000; }
+    background: #000000;
+    margin-bottom: -32768px;
+    padding-bottom: 32768px;
+    overflow: hidden; }
     body#base .side-bar .tweet {
       padding: 10px; }
   body#base .fade-out {
