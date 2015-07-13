@@ -67,6 +67,15 @@ body#base {
     transform: scale(0.8); } }
   body#base .container#pjax-container {
     margin-left: 190px; }
+    body#base .container#pjax-container a {
+      font-weight: bold; }
+      body#base .container#pjax-container a:link {
+        color: #DDDDa0; }
+      body#base .container#pjax-container a:visited {
+        color: #DDDDa0; }
+      body#base .container#pjax-container a:hover {
+        background: white;
+        color: black; }
     body#base .container#pjax-container .game #game-title {
       font-size: 26px;
       padding-bottom: 12px; }
