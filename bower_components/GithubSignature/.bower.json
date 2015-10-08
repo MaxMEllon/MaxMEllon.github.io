@@ -1,0 +1,28 @@
+{
+  "name": "GithubSignature",
+  "homepage": "https://github.com/MaxMEllon/GithubSignature",
+  "authors": [
+    "MaxMEllon <mozi_kke@excite.co.jp>"
+  ],
+  "description": "Githubsignature can be embedded the signature in HTML",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "_release": "4164391c1e",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "4164391c1ea7338272b2d5c6b2599cd6c0f552d5"
+  },
+  "_source": "git://github.com/MaxMEllon/GithubSignature.git",
+  "_target": "*",
+  "_originalSource": "githubsignature",
+  "_direct": true
+}

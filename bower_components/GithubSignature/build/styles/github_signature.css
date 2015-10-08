@@ -1,0 +1,434 @@
+body {
+!important;
+.signature {
+  width: 400px !important !important;
+  height: 94px !important !important;
+  background-color: black !important !important;
+  color: white !important !important;
+  overflow: hidden !important !important;
+  box-sizing: border-box !important !important;
+  font-family: "meiryo UI" !important !important; }
+  .signature .sig-color-box-list {
+    width: 100px !important;
+    height: 64px !important; }
+    .signature .sig-color-box-list .sig-scouter {
+      float: left !important;
+      width: 100px !important;
+      height: 19px !important;
+      border-top: 1px solid white !important;
+      font-size: 15px !important; }
+    .signature .sig-color-box-list .sig-color-box {
+      font-size: 19px !important;
+      float: left !important;
+      width: 50px !important;
+      height: 32px !important; }
+    .signature .sig-color-box-list .sig-color-box-num {
+      font-size: 14px !important;
+      text-align: right !important; }
+  .signature .sig-container {
+    position: relative !important;
+    bottom: 86px !important;
+    left: 102px !important;
+    width: 216px !important;
+    height: 84px !important;
+    margin-left: 3px !important;
+    clear: both !important;
+    float: left !important; }
+    .signature .sig-container .sig-text {
+      font-size: 7px !important;
+      height: 14px !important;
+      margin: 0px !important;
+      padding: 0px !important; }
+    .signature .sig-container .sig-user-name {
+      position: relative !important;
+      clear: both !important;
+      height: 30px !important; }
+  .signature .sig-lang-bar {
+    position: relative !important;
+    height: 10px !important;
+    min-height: 10px !important;
+    margin-top: -84px !important;
+    width: 400px !important;
+    background: white !important;
+    display: inline-flex !important; }
+    .signature .sig-lang-bar .sig-lang {
+      position: relative !important;
+      height: 10px !important;
+      min-height: 10px !important;
+      display: inline-flex !important; }
+  .signature .sig-avatar {
+    position: relative !important;
+    bottom: 84px !important;
+    float: right !important;
+    height: 84px !important; }
+  .signature .ABAP {
+    background-color: #E8274B !important; }
+  .signature .AGS_Script {
+    background-color: #B9D9FF !important; }
+  .signature .AMPL {
+    background-color: #E6EFBB !important; }
+  .signature .ANTLR {
+    background-color: #9DC3FF !important; }
+  .signature .API_Blueprint {
+    background-color: #2ACCA8 !important; }
+  .signature .APL {
+    background-color: #5A8164 !important; }
+  .signature .ASP {
+    background-color: #6a40fd !important; }
+  .signature .ATS {
+    background-color: #1ac620 !important; }
+  .signature .ActionScript {
+    background-color: #882B0F !important; }
+  .signature .Ada {
+    background-color: #02f88c !important; }
+  .signature .Agda {
+    background-color: #315665 !important; }
+  .signature .Alloy {
+    background-color: #cc5c24 !important; }
+  .signature .Arc {
+    background-color: #aa2afe !important; }
+  .signature .Arduino {
+    background-color: #bd79d1 !important; }
+  .signature .AspectJ {
+    background-color: #a957b0 !important; }
+  .signature .Assembly {
+    background-color: #6E4C13 !important; }
+  .signature .AutoHotkey {
+    background-color: #6594b9 !important; }
+  .signature .AutoIt {
+    background-color: #1C3552 !important; }
+  .signature .BlitzMax {
+    background-color: #cd6400 !important; }
+  .signature .Boo {
+    background-color: #d4bec1 !important; }
+  .signature .Brainfuck {
+    background-color: #2F2530 !important; }
+  .signature .C {
+    background-color: #555555 !important; }
+  .signature .CSharp {
+    background-color: #178600 !important; }
+  .signature .C + + {
+    background-color: #f34b7d !important; }
+  .signature .CSS {
+    background-color: #563d7c !important; }
+  .signature .Chapel {
+    background-color: #8dc63f !important; }
+  .signature .Cirru {
+    background-color: #ccccff !important; }
+  .signature .Clarion {
+    background-color: #db901e !important; }
+  .signature .Clean {
+    background-color: #3F85AF !important; }
+  .signature .Clojure {
+    background-color: #db5855 !important; }
+  .signature .CoffeeScript {
+    background-color: #244776 !important; }
+  .signature .ColdFusion {
+    background-color: #ed2cd6 !important; }
+  .signature .ColdFusion_CFC {
+    background-color: #ed2cd6 !important; }
+  .signature .Common_Lisp {
+    background-color: #3fb68b !important; }
+  .signature .Component_Pascal {
+    background-color: #b0ce4e !important; }
+  .signature .Crystal {
+    background-color: #776791 !important; }
+  .signature .D {
+    background-color: #fcd46d !important; }
+  .signature .DM {
+    background-color: #447265 !important; }
+  .signature .Dart {
+    background-color: #00B4AB !important; }
+  .signature .Diff {
+    background-color: #88dddd !important; }
+  .signature .Dogescript {
+    background-color: #cca760 !important; }
+  .signature .Dylan {
+    background-color: #6c616e !important; }
+  .signature .E {
+    background-color: #ccce35 !important; }
+  .signature .ECL {
+    background-color: #8a1267 !important; }
+  .signature .Eagle {
+    background-color: #814C05 !important; }
+  .signature .Eiffel {
+    background-color: #946d57 !important; }
+  .signature .Elixir {
+    background-color: #6e4a7e !important; }
+  .signature .Elm {
+    background-color: #60B5CC !important; }
+  .signature .Emacs_Lisp {
+    background-color: #c065db !important; }
+  .signature .EmberScript {
+    background-color: #FFF4F3 !important; }
+  .signature .Erlang {
+    background-color: #B83998 !important; }
+  .signature .FSharp {
+    background-color: #b845fc !important; }
+  .signature .FLUX {
+    background-color: #88ccff !important; }
+  .signature .FORTRAN {
+    background-color: #4d41b1 !important; }
+  .signature .Factor {
+    background-color: #636746 !important; }
+  .signature .Fancy {
+    background-color: #7b9db4 !important; }
+  .signature .Fantom {
+    background-color: #dbded5 !important; }
+  .signature .Forth {
+    background-color: #341708 !important; }
+  .signature .Frege {
+    background-color: #00cafe !important; }
+  .signature .Game_Maker_Language {
+    background-color: #8fb200 !important; }
+  .signature .Glyph {
+    background-color: #e4cc98 !important; }
+  .signature .Gnuplot {
+    background-color: #f0a9f0 !important; }
+  .signature .Go {
+    background-color: #375eab !important; }
+  .signature .Golo {
+    background-color: #88562A !important; }
+  .signature .Gosu {
+    background-color: #82937f !important; }
+  .signature .Grammatical_Framework {
+    background-color: #79aa7a !important; }
+  .signature .Groovy {
+    background-color: #e69f56 !important; }
+  .signature .HTML {
+    background-color: #e44b23 !important; }
+  .signature .Handlebars {
+    background-color: #01a9d6 !important; }
+  .signature .Harbour {
+    background-color: #0e60e3 !important; }
+  .signature .Haskell {
+    background-color: #29b544 !important; }
+  .signature .Haxe {
+    background-color: #f7941e !important; }
+  .signature .Hy {
+    background-color: #7790B2 !important; }
+  .signature .IDL {
+    background-color: #a3522f !important; }
+  .signature .Io {
+    background-color: #a9188d !important; }
+  .signature .Ioke {
+    background-color: #078193 !important; }
+  .signature .Isabelle {
+    background-color: #FEFE00 !important; }
+  .signature .J {
+    background-color: #9EEDFF !important; }
+  .signature .JFlex {
+    background-color: #DBCA00 !important; }
+  .signature .Java {
+    background-color: #b07219 !important; }
+  .signature .JavaScript {
+    background-color: #f1e05a !important; }
+  .signature .Julia {
+    background-color: #a270ba !important; }
+  .signature .KRL {
+    background-color: #28431f !important; }
+  .signature .Kotlin {
+    background-color: #EA4DFA !important; }
+  .signature .LFE {
+    background-color: #004200 !important; }
+  .signature .LOLCODE {
+    background-color: #cc9900 !important; }
+  .signature .LSL {
+    background-color: #3d9970 !important; }
+  .signature .Lasso {
+    background-color: #999999 !important; }
+  .signature .Latte {
+    background-color: #A8FF97 !important; }
+  .signature .LiveScript {
+    background-color: #499886 !important; }
+  .signature .LookML {
+    background-color: #652B81 !important; }
+  .signature .Lua {
+    background-color: #000080 !important; }
+  .signature .MTML {
+    background-color: #b7e1f4 !important; }
+  .signature .Makefile {
+    background-color: #427819 !important; }
+  .signature .Mask {
+    background-color: #f97732 !important; }
+  .signature .Matlab {
+    background-color: #bb92ac !important; }
+  .signature .Max {
+    background-color: #c4a79c !important; }
+  .signature .Mercury {
+    background-color: #ff2b2b !important; }
+  .signature .Mirah {
+    background-color: #c7a938 !important; }
+  .signature .Nemerle {
+    background-color: #3d3c6e !important; }
+  .signature .NetLinx {
+    background-color: #0aa0ff !important; }
+  .signature .NetLinx + ERB {
+    background-color: #747faa !important; }
+  .signature .NetLogo {
+    background-color: #ff6375 !important; }
+  .signature .NewLisp {
+    background-color: #87AED7 !important; }
+  .signature .Nimrod {
+    background-color: #37775b !important; }
+  .signature .Nit {
+    background-color: #009917 !important; }
+  .signature .Nix {
+    background-color: #7e7eff !important; }
+  .signature .Nu {
+    background-color: #c9df40 !important; }
+  .signature .OCaml {
+    background-color: #3be133 !important; }
+  .signature .Objective-C {
+    background-color: #438eff !important; }
+  .signature .Objective-C + + {
+    background-color: #6866fb !important; }
+  .signature .Objective-J {
+    background-color: #ff0c5a !important; }
+  .signature .Omgrofl {
+    background-color: #cabbff !important; }
+  .signature .Opal {
+    background-color: #f7ede0 !important; }
+  .signature .Oxygene {
+    background-color: #cdd0e3 !important; }
+  .signature .Oz {
+    background-color: #fab738 !important; }
+  .signature .PAWN {
+    background-color: #dbb284 !important; }
+  .signature .PHP {
+    background-color: #4F5D95 !important; }
+  .signature .Pan {
+    background-color: #cc0000 !important; }
+  .signature .Papyrus {
+    background-color: #6600cc !important; }
+  .signature .Parrot {
+    background-color: #f3ca0a !important; }
+  .signature .Pascal {
+    background-color: #b0ce4e !important; }
+  .signature .Perl {
+    background-color: #0298c3 !important; }
+  .signature .Perl6 {
+    background-color: #0000fb !important; }
+  .signature .PigLatin {
+    background-color: #fcd7de !important; }
+  .signature .Pike {
+    background-color: #005390 !important; }
+  .signature .PogoScript {
+    background-color: #d80074 !important; }
+  .signature .Processing {
+    background-color: #0096D8 !important; }
+  .signature .Prolog {
+    background-color: #74283c !important; }
+  .signature .Propeller_Spin {
+    background-color: #7fa2a7 !important; }
+  .signature .Puppet {
+    background-color: #332A77 !important; }
+  .signature .Pure_Data {
+    background-color: #91de79 !important; }
+  .signature .PureBasic {
+    background-color: #5a6986 !important; }
+  .signature .PureScript {
+    background-color: #1D222D !important; }
+  .signature .Python {
+    background-color: #3572A5 !important; }
+  .signature .QML {
+    background-color: #44a51c !important; }
+  .signature .R {
+    background-color: #198ce7 !important; }
+  .signature .RAML {
+    background-color: #77d9fb !important; }
+  .signature .Racket {
+    background-color: #22228f !important; }
+  .signature .Ragel_in_Ruby_Host {
+    background-color: #e17600 !important; }
+  .signature .Rebol {
+    background-color: #358a5b !important; }
+  .signature .Red {
+    background-color: #ee0000 !important; }
+  .signature .Rouge {
+    background-color: #cc0088 !important; }
+  .signature .Ruby {
+    background-color: #701516 !important; }
+  .signature .Rust {
+    background-color: #dea584 !important; }
+  .signature .SAS {
+    background-color: #B34936 !important; }
+  .signature .SQF {
+    background-color: #3F3F3F !important; }
+  .signature .SaltStack {
+    background-color: #646464 !important; }
+  .signature .Scala {
+    background-color: #7dd3b0 !important; }
+  .signature .Scheme {
+    background-color: #1e4aec !important; }
+  .signature .Self {
+    background-color: #0579aa !important; }
+  .signature .Shell {
+    background-color: #89e051 !important; }
+  .signature .Shen {
+    background-color: #120F14 !important; }
+  .signature .Slash {
+    background-color: #007eff !important; }
+  .signature .Slim {
+    background-color: #ff8f77 !important; }
+  .signature .Smalltalk {
+    background-color: #596706 !important; }
+  .signature .SourcePawn {
+    background-color: #5c7611 !important; }
+  .signature .Squirrel {
+    background-color: #800000 !important; }
+  .signature .Standard_ML {
+    background-color: #dc566d !important; }
+  .signature .SuperCollider {
+    background-color: #46390b !important; }
+  .signature .Swift {
+    background-color: #ffac45 !important; }
+  .signature .SystemVerilog {
+    background-color: #DAE1C2 !important; }
+  .signature .Tcl {
+    background-color: #e4cc98 !important; }
+  .signature .TeX {
+    background-color: #3D6117 !important; }
+  .signature .Turing {
+    background-color: #45f715 !important; }
+  .signature .TypeScript {
+    background-color: #2b7489 !important; }
+  .signature .Unified_Parallel_C {
+    background-color: #4e3617 !important; }
+  .signature .UnrealScript {
+    background-color: #a54c4d !important; }
+  .signature .VHDL {
+    background-color: #adb2cb !important; }
+  .signature .Vala {
+    background-color: #fbe5cd !important; }
+  .signature .Verilog {
+    background-color: #b2b7f8 !important; }
+  .signature .VimL {
+    background-color: #199f4b !important; }
+  .signature .Visual_Basic {
+    background-color: #945db7 !important; }
+  .signature .Volt {
+    background-color: #1F1F1F !important; }
+  .signature .Web_Ontology_Language {
+    background-color: #9cc9dd !important; }
+  .signature .XC {
+    background-color: #99DA07 !important; }
+  .signature .XQuery {
+    background-color: #5232e7 !important; }
+  .signature .Zephir {
+    background-color: #118f9e !important; }
+  .signature .eC {
+    background-color: #913960 !important; }
+  .signature .edn {
+    background-color: #db5855 !important; }
+  .signature .nesC {
+    background-color: #94B0C7 !important; }
+  .signature .ooc {
+    background-color: #b0b77e !important; }
+  .signature .wisp {
+    background-color: #7582D1 !important; }
+  .signature .xBase {
+    background-color: #403a40 !important; }
+}
+
+/*# sourceMappingURL=github_signature.css.map */

@@ -1,16 +1,9 @@
-# MyGithub.io
+# MaxMellon's github.io
 
-[ここの](http://MaxMEllon.github.io)ソースコードです
-~~middlemanを使おうと思いましたが今のところベタ書き AngularJS使う（たぶん）．~~
-あれは嘘だ
+# Powerd by startbootstrap-freelancer
 
+Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
 
-# how to run
+## Copyright and License
 
-```sh
-$ git clone https://github.com/MaxMEllon/MaxMEllon.github.io
-$ cd MaxMEllon.github.io
-$ npm i
-$ grunt
-# Access to http://localhost:8080
-```
+Copyright 2013-2015 Iron Summit Media Strategies, LLC. Code released under the [Apache 2.0](https://github.com/IronSummitMedia/startbootstrap-freelancer/blob/gh-pages/LICENSE) license.
