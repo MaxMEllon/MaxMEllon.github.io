@@ -364,6 +364,10 @@ footer .footer-below {
     background-color: #233140;
 }
 
+.table>tbody>tr>td {
+  vertical-align: middle;
+}
+
 .btn-social {
     display: inline-block;
     width: 50px;
