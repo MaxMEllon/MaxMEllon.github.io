@@ -40,6 +40,10 @@ h6 {
     font-weight: 700;
 }
 
+em {
+  font-size: 12px
+}
+
 hr.star-light,
 hr.star-primary {
     margin: 25px auto 30px;
