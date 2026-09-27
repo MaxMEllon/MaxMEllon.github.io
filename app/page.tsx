@@ -12,6 +12,7 @@ const LINKS = [
     label: 'VRChat',
     href: 'https://vrchat.com/home/user/usr_198bd4ec-e7b6-4ef7-a009-52325524fa68',
   },
+  { label: 'SAVAGE', href: 'https://savage-vr.github.io/' },
 ] as const
 
 const TOOLS = [
