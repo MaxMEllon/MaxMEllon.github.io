@@ -14,7 +14,10 @@ const LINKS = [
   },
 ] as const
 
-const TOOLS = [{ label: 'cue parser', href: '/cue-parser/' }] as const
+const TOOLS = [
+  { label: 'showcase', href: '/showcase/' },
+  { label: 'cue parser', href: '/cue-parser/' },
+] as const
 
 export default function Page() {
   const appearances = loadAppearances()

@@ -541,3 +541,116 @@ a.event-title:focus-visible {
     transition-duration: 0.01ms !important;
   }
 }
+
+/* --- showcase ---
+   ページごと画面の左右いっぱいに使う。動画同士は隙間なく 2 列で敷き詰め、
+   出典リンクは下に置くと隙間になるので左上に重ねる。
+   ヘッダーと VJ / DJ の見出しだけ .page と同じ 1.25rem の余白を左右に取る */
+
+.page-wide {
+  max-width: none;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.page-wide .page-header {
+  padding: 0 1.25rem;
+}
+
+.showcase {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0;
+  margin: 3rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.showcase li {
+  position: relative;
+}
+
+.showcase-title {
+  margin: 4rem 0 0;
+  padding: 0 1.25rem;
+  font-family: var(--font-mono);
+  font-size: 1.5rem;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+}
+
+.showcase-title + .showcase {
+  margin-top: 1rem;
+}
+
+.showcase video,
+.showcase iframe {
+  display: block;
+  border: 0;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  background: #000000;
+}
+
+/* スマホでは横並びをやめて 1 列にする。
+   上の .showcase より後ろに置かないと 2 列指定に負ける */
+@media (max-width: 34rem) {
+  .showcase {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* 動画全面を覆う透明ボタン。▶ は停止中だけ見せる */
+.showcase-play {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+.showcase-play svg {
+  width: 3.5rem;
+  height: 3.5rem;
+  padding: 0.9rem;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.6);
+  fill: var(--fg);
+  transition:
+    opacity 0.15s,
+    background-color 0.15s;
+}
+
+.showcase-play:hover svg,
+.showcase-play:focus-visible svg {
+  background: rgba(0, 0, 0, 0.85);
+}
+
+.showcase-play[data-playing='true'] svg {
+  opacity: 0;
+}
+
+/* ボタンより手前に出してリンクを押せるようにする */
+.showcase-source {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  padding: 0.25rem 0.5rem;
+  background: rgba(0, 0, 0, 0.6);
+  color: var(--muted);
+  font-family: var(--font-mono);
+  font-size: 0.625rem;
+  letter-spacing: 0.08em;
+  text-decoration: none;
+}
+
+.showcase-source:hover,
+.showcase-source:focus-visible {
+  background: var(--fg);
+  color: #000000;
+}
