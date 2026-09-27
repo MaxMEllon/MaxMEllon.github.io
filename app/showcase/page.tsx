@@ -16,8 +16,16 @@ const CLIPS = [
   { id: '2033370883876860058', caption: '#syncspin1st' },
 ] as const
 
-// DJ は YouTube のミックスを埋め込む。タイトルは埋め込み側に出るのでラベルは付けない
-const MIXES = ['yrTBP5Cll3U', '3ns0kCG2rrY', 'jEUl_V7wmaI', 'RtLrj8bJBGk'] as const
+// DJ は YouTube のミックスを埋め込む。タイトルは埋め込み側に出るのでラベルは付けない。
+// 公開日の新しい順
+const MIXES = [
+  'yrTBP5Cll3U', // 2026-09-01 SAVAGE LOCKED SUMMER EDITION RECALL
+  'hIJpqdF64yw', // 2026-08-26 Vol.37
+  'jEUl_V7wmaI', // 2025-10-06 Vol.31
+  'qh__DoO6zsc', // 2025-05-20 Vol.22
+  'RtLrj8bJBGk', // 2025-01-22 Vol.17
+  '3ns0kCG2rrY', // 2024-06-29 Vol.10
+] as const
 
 export const metadata: Metadata = {
   title: 'showcase — melocil.de',
@@ -35,7 +43,16 @@ export default function ShowcasePage() {
         </p>
       </header>
 
-      <h2 className="showcase-title">VJ</h2>
+      <h2 className="showcase-title">
+        VJ
+        {/* 再生すると音量操作なしでいきなり鳴るので、見出しの横で先に知らせる */}
+        <span className="volume-note">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0 0 14 7.97v8.05A4.5 4.5 0 0 0 16.5 12zM14 3.23v2.06a7 7 0 0 1 0 13.42v2.06a9 9 0 0 0 0-17.54z" />
+          </svg>
+          音量注意
+        </span>
+      </h2>
       <ul className="showcase">
         {CLIPS.map((clip) => (
           <li key={clip.id}>
